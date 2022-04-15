@@ -9,6 +9,8 @@ let hobbies: string[];
 let role: [number, string];
 
 
+let personName: unknown; //recommended over any
+
 // define a function that doesn't return anything
 let printName: (name: string) => void;
 // let printName: (name: string) => number;
@@ -20,7 +22,7 @@ let printName: (name: string) => void;
 
 // }
 
-printName('bobb')
+// printName('bobb')
 // tuple
 // array of strict multiple types
 // tuple the order and length are guaranteed.
