@@ -24,6 +24,9 @@ let person: Person = {
   name: 'bob',
 }
 
+// array of person objects
+let lotsOfPeoople:Person[];
+
 
 function App() {
   return (
