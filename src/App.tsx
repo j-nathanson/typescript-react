@@ -16,12 +16,12 @@ let role: [number, string];
 // create person object from custom type
 type Person = {
   name: string,
-  age: number
+  age?: number
 }
 // needs both properties
+// 'age is optional, no error 
 let person: Person = {
   name: 'bob',
-  age: 500
 }
 
 
