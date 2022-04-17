@@ -36,6 +36,7 @@ function App() {
       <Status status='success' />
       <Heading>Placeholder text</Heading>
       <Oscar><Heading>Oscar goes to Leo</Heading></Oscar>
+      <Greet name='nom' isLoggedIn={true} />
     </div>
   );
 }
