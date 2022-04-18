@@ -1,4 +1,3 @@
-import { log } from 'console'
 import React from 'react'
 
 // returns undefined since it is just console logging
@@ -18,3 +17,5 @@ export const Input = (props: InputProps) => {
         <input type="text" value={props.value} onChange={handleInputChange} />
     )
 }
+
+//could send props.handle change or same function handleInputChange()
