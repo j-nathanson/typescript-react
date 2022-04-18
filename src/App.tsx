@@ -48,11 +48,12 @@ function App() {
       <Heading>Placeholder text</Heading>
       <Oscar><Heading>Oscar goes to Leo</Heading></Oscar>
 
-      {/* default values for props - mising 'messageCount' */}
+      {/* default values for props - missing 'messageCount' */}
       <Greet name='nom' isLoggedIn={true} />
 
-      {/* pass an event as props */}
+      {/* pass a click event as props */}
       <Button handleClick={(e, id) => { console.log('button clicked', e, id) }} />
+      {/*  pass a change event*/}
       <Input value='' handleChange={e => console.log(e)} />
     </div>
   );
