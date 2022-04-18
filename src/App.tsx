@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { Button } from './components/Button';
 import { Greet } from './components/Greet';
 import { Heading } from './components/Heading';
 import { Oscar } from './components/Oscar';
@@ -37,6 +38,7 @@ function App() {
       <Heading>Placeholder text</Heading>
       <Oscar><Heading>Oscar goes to Leo</Heading></Oscar>
       <Greet name='nom' isLoggedIn={true} />
+      <Button handleClick={(e, id) => { console.log('button clicked', e, id) }} />
     </div>
   );
 }

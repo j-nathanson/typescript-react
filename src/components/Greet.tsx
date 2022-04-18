@@ -1,5 +1,3 @@
-import React from 'react'
-
 //use types for application, interface for libraries, but are very similar
 type GreetProps = {
     name: string,
